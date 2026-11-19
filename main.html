@@ -12,6 +12,10 @@
 			//Write your code here
 			let largest = -Infinity;
 	let secondLargest = -Infinity;
+	if(arr.length === 0 || arr.length === 1){
+		return -Infinity
+	}	
+	
 	for(let i=0;i<arr.length;i++){
 		let num=Number(arr[i])
 		if(num>largest){

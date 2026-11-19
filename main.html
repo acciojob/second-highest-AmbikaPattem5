@@ -25,6 +25,9 @@
 		if(num>secondLargest && num<largest){
 			secondLargest=num;
 		} 
+		if(largest === secondLargest){
+			return -Infinity;
+		}
 		
 	}
 	return secondLargest;
